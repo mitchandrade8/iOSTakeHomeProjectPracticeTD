@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		7431270A2AE855740025BB3E /* iOSTakeHomeProjectPracticeTDApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743127092AE855740025BB3E /* iOSTakeHomeProjectPracticeTDApp.swift */; };
 		7431270C2AE855740025BB3E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7431270B2AE855740025BB3E /* ContentView.swift */; };
-		7431270E2AE855740025BB3E /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7431270D2AE855740025BB3E /* Item.swift */; };
 		743127102AE855760025BB3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7431270F2AE855760025BB3E /* Assets.xcassets */; };
 		743127132AE855760025BB3E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 743127122AE855760025BB3E /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -18,7 +17,6 @@
 		743127062AE855740025BB3E /* iOSTakeHomeProjectPracticeTD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSTakeHomeProjectPracticeTD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		743127092AE855740025BB3E /* iOSTakeHomeProjectPracticeTDApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSTakeHomeProjectPracticeTDApp.swift; sourceTree = "<group>"; };
 		7431270B2AE855740025BB3E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		7431270D2AE855740025BB3E /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		7431270F2AE855760025BB3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		743127122AE855760025BB3E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -55,7 +53,6 @@
 			children = (
 				743127092AE855740025BB3E /* iOSTakeHomeProjectPracticeTDApp.swift */,
 				7431270B2AE855740025BB3E /* ContentView.swift */,
-				7431270D2AE855740025BB3E /* Item.swift */,
 				7431270F2AE855760025BB3E /* Assets.xcassets */,
 				743127112AE855760025BB3E /* Preview Content */,
 			);
@@ -141,7 +138,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7431270C2AE855740025BB3E /* ContentView.swift in Sources */,
-				7431270E2AE855740025BB3E /* Item.swift in Sources */,
 				7431270A2AE855740025BB3E /* iOSTakeHomeProjectPracticeTDApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
