@@ -21,3 +21,11 @@ import Foundation
 /// Think of it like a delivery service app, you do not know how uber eats works behind the scenes but they provide you with all the
 /// tools to easily order a big mac.
 
+
+// What are REST APIS used for
+/// When you are building apps, you need to display data dynamically and it needs to be up to date.
+
+
+// MARK: - THE URL
+
+
