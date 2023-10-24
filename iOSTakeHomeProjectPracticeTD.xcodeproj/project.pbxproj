@@ -11,6 +11,7 @@
 		7431270C2AE855740025BB3E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7431270B2AE855740025BB3E /* ContentView.swift */; };
 		743127102AE855760025BB3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7431270F2AE855760025BB3E /* Assets.xcassets */; };
 		743127132AE855760025BB3E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 743127122AE855760025BB3E /* Preview Assets.xcassets */; };
+		7431271B2AE857710025BB3E /* Symbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7431271A2AE857710025BB3E /* Symbols.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		7431270B2AE855740025BB3E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7431270F2AE855760025BB3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		743127122AE855760025BB3E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7431271A2AE857710025BB3E /* Symbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symbols.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		743127082AE855740025BB3E /* iOSTakeHomeProjectPracticeTD */ = {
 			isa = PBXGroup;
 			children = (
+				743127192AE856B80025BB3E /* Resources */,
 				743127092AE855740025BB3E /* iOSTakeHomeProjectPracticeTDApp.swift */,
 				7431270B2AE855740025BB3E /* ContentView.swift */,
 				7431270F2AE855760025BB3E /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				743127122AE855760025BB3E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		743127192AE856B80025BB3E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7431271A2AE857710025BB3E /* Symbols.swift */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7431271B2AE857710025BB3E /* Symbols.swift in Sources */,
 				7431270C2AE855740025BB3E /* ContentView.swift in Sources */,
 				7431270A2AE855740025BB3E /* iOSTakeHomeProjectPracticeTDApp.swift in Sources */,
 			);
