@@ -114,6 +114,9 @@
 		743127212AE85C660025BB3E /* Create */ = {
 			isa = PBXGroup;
 			children = (
+				7431272D2AE85DF90025BB3E /* Views */,
+				7431272C2AE85DF10025BB3E /* Model */,
+				7431272B2AE85DD90025BB3E /* View Models */,
 			);
 			path = Create;
 			sourceTree = "<group>";
@@ -121,6 +124,9 @@
 		743127222AE85C700025BB3E /* Detail */ = {
 			isa = PBXGroup;
 			children = (
+				7431272A2AE85DCD0025BB3E /* View Models */,
+				743127292AE85DC60025BB3E /* Model */,
+				743127282AE85DAC0025BB3E /* Views */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -128,6 +134,7 @@
 		743127232AE85C780025BB3E /* Settings */ = {
 			isa = PBXGroup;
 			children = (
+				743127272AE85DA10025BB3E /* Views */,
 			);
 			path = Settings;
 			sourceTree = "<group>";
@@ -151,6 +158,55 @@
 			children = (
 			);
 			path = "View Models";
+			sourceTree = "<group>";
+		};
+		743127272AE85DA10025BB3E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		743127282AE85DAC0025BB3E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		743127292AE85DC60025BB3E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7431272A2AE85DCD0025BB3E /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		7431272B2AE85DD90025BB3E /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		7431272C2AE85DF10025BB3E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7431272D2AE85DF90025BB3E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
