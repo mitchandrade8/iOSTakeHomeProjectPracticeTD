@@ -28,4 +28,36 @@ import Foundation
 
 // MARK: - THE URL
 
+// The URL we will be using:
+/// ** https://reqres.in/api/users **
 
+// Can break this URL into 2 parts:
+
+    // Part #1
+    /// We call this the base URL
+    /// ** https://reqres.in **
+
+    // Part #2
+    ///  The endpoint
+    ///  ** /api/users **
+
+
+// MARK: - Working with An API
+
+
+// Request Method:
+/// Telling the API how we want to interact with it
+
+    // Most Common Request Methods
+
+    /// Get:
+    /// -- When we want to fetch data from out API
+
+    /// Post:
+    /// -- Generally used to send data to an API
+
+    /// Put:
+    /// -- Generally used to update data in an API
+
+    /// Delete:
+    /// --
