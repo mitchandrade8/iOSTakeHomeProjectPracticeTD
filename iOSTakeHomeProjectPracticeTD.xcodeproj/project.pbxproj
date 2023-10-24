@@ -55,6 +55,8 @@
 		743127082AE855740025BB3E /* iOSTakeHomeProjectPracticeTD */ = {
 			isa = PBXGroup;
 			children = (
+				7431271F2AE85C3D0025BB3E /* Features */,
+				7431271E2AE85C360025BB3E /* Base */,
 				743127192AE856B80025BB3E /* Resources */,
 				743127092AE855740025BB3E /* iOSTakeHomeProjectPracticeTDApp.swift */,
 				7431270B2AE855740025BB3E /* ContentView.swift */,
@@ -79,6 +81,76 @@
 				7431271C2AE85A290025BB3E /* Theme.swift */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		7431271E2AE85C360025BB3E /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		7431271F2AE85C3D0025BB3E /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				743127232AE85C780025BB3E /* Settings */,
+				743127222AE85C700025BB3E /* Detail */,
+				743127212AE85C660025BB3E /* Create */,
+				743127202AE85C5A0025BB3E /* People */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		743127202AE85C5A0025BB3E /* People */ = {
+			isa = PBXGroup;
+			children = (
+				743127262AE85CAD0025BB3E /* View Models */,
+				743127252AE85CA60025BB3E /* Model */,
+				743127242AE85C9F0025BB3E /* Views */,
+			);
+			path = People;
+			sourceTree = "<group>";
+		};
+		743127212AE85C660025BB3E /* Create */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Create;
+			sourceTree = "<group>";
+		};
+		743127222AE85C700025BB3E /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		743127232AE85C780025BB3E /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		743127242AE85C9F0025BB3E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		743127252AE85CA60025BB3E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		743127262AE85CAD0025BB3E /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Models";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
