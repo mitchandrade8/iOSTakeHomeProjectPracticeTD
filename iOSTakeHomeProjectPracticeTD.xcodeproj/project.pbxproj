@@ -14,6 +14,7 @@
 		7431271B2AE857710025BB3E /* Symbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7431271A2AE857710025BB3E /* Symbols.swift */; };
 		7431271D2AE85A290025BB3E /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7431271C2AE85A290025BB3E /* Theme.swift */; };
 		743127302AE86E120025BB3E /* NotesOnAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7431272F2AE86E120025BB3E /* NotesOnAPI.swift */; };
+		743127332AE92DC90025BB3E /* NotesOnJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743127322AE92DC90025BB3E /* NotesOnJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		7431271C2AE85A290025BB3E /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		7431272E2AE86BF60025BB3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		7431272F2AE86E120025BB3E /* NotesOnAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesOnAPI.swift; sourceTree = "<group>"; };
+		743127322AE92DC90025BB3E /* NotesOnJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesOnJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +66,7 @@
 				743127192AE856B80025BB3E /* Resources */,
 				743127092AE855740025BB3E /* iOSTakeHomeProjectPracticeTDApp.swift */,
 				7431270B2AE855740025BB3E /* ContentView.swift */,
-				7431272F2AE86E120025BB3E /* NotesOnAPI.swift */,
+				743127312AE92DB90025BB3E /* Notes */,
 				7431270F2AE855760025BB3E /* Assets.xcassets */,
 				743127112AE855760025BB3E /* Preview Content */,
 			);
@@ -214,6 +216,15 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		743127312AE92DB90025BB3E /* Notes */ = {
+			isa = PBXGroup;
+			children = (
+				7431272F2AE86E120025BB3E /* NotesOnAPI.swift */,
+				743127322AE92DC90025BB3E /* NotesOnJSON.swift */,
+			);
+			path = Notes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -284,6 +295,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				743127332AE92DC90025BB3E /* NotesOnJSON.swift in Sources */,
 				7431271B2AE857710025BB3E /* Symbols.swift in Sources */,
 				743127302AE86E120025BB3E /* NotesOnAPI.swift in Sources */,
 				7431271D2AE85A290025BB3E /* Theme.swift in Sources */,
