@@ -60,4 +60,28 @@ import Foundation
     /// -- Generally used to update data in an API
 
     /// Delete:
-    /// --
+    /// -- Remove data from an API
+
+
+// MARK: - Request Body
+/// Helps us send data with our requests
+
+// Example Scenario
+/// We send a post request and we need to also tell the api what date it should use to create a user
+/// this is where the request body comes in
+
+/// It allows us to send data with a request so that the api can process it and handle it and return
+/// some kind of response based on the data it has received.
+
+/// So when you send a network request as well the API will also give you feedback as to how
+/// successful that request was. So when you work with an API the request you need some kind
+/// of feedback to tell you that everything was okay.
+
+
+// MARK: - Status Codes
+
+// A Status Code 
+/// is a unique code that has been agreed and defined to have a
+/// specific meaning.
+
+ 
